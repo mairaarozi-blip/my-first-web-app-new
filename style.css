@@ -1,0 +1,61 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+
+.header {
+  background: linear-gradient(135deg, #004e92 0%, #000428 100%);
+  color: white;
+  padding: 80px 0 40px;
+  text-align: center;
+}
+
+.navbar {
+  background: #222;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-links a.active {
+  background: #004e92;
+  border-radius: 4px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #004e92 0%, #000428 100%);
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.contact-button:hover {
+  opacity: 0.85;
+}
